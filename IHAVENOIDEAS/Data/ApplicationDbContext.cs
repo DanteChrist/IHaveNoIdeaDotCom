@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using IHAVENOIDEAS.Data;
 
 namespace IHAVENOIDEAS.Data
 {
@@ -9,5 +10,6 @@ namespace IHAVENOIDEAS.Data
             : base(options)
         {
         }
+        public DbSet<IHAVENOIDEAS.Data.ArtIdea>? ArtIdea { get; set; }
     }
 }

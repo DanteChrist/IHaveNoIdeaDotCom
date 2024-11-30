@@ -1,0 +1,45 @@
+﻿ @model IEnumerable<IHAVENOIDEAS.Data.ArtIdea>
+
+@{
+    ViewData["Title"] = "Index";
+
+    var random = new Random();
+    var itemList = Model.ToList();
+    var randomItem = itemList.Count > 0 ? itemList[random.Next(itemList.Count)] : null;
+}
+
+<body style="background-color:#ffe6f2;">
+
+<h1>Youw Ansew</h1>
+
+@if (randomItem != null)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => randomItem.Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => randomItem.Description)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => randomItem.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => randomItem.Description)
+                </td>
+            </tr>
+        </tbody>
+    </table>
+}
+else
+{
+    <p>Thew is nowthwing :(</p>
+}
+</body>

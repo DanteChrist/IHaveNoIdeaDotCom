@@ -1,38 +1,10 @@
 ﻿@{
     ViewData["Title"] = "I Have No Ideas";
 }
+<head>
+    <link rel="stylesheet" href="wwwroot/css/site.css">
+</head>
 <body style="background-color:#ffe6f2;">
-
-<style>
-    .button {
-            align-items: center;
-            width: 250px;
-            height: 100px;
-            max-width: 70%;
-            padding: 40px;
-            border-radius: 10px;
-            background-color: rgb(255, 102, 204);
-            color: #33001a;
-            font: 20px Inter, sans-serif;
-            align-self: center;
-    }
-
-        .button2 {
-            align-items: center;
-            width: 315px;
-            height: 345px;
-            max-width: 70%;
-            padding: 40px;
-            border-radius: 10px;
-            background-color: rgb(255, 102, 204);
-            color: #33001a;
-            font: 20px Inter, sans-serif;
-            align-self: center;
-        }
-    .title-format{
-            color: #800040;
-            font: 100px Inter, sans-serif; }
-</style>
 
 <div class="text-center">
 
@@ -41,16 +13,20 @@
 </div>
 
 <div>
-    <button class='button'> Fashion </button>
-    <button class ='button'> Presentation </button>
-    <button class='button'> Art </button>
-    <button class='button'> Code </button>
-    <button class='button'> School </button>
-    <hr>
-        <button class='button2'>CoinFlip </button>
-        <button class='button2'>Magic 8 Ball </button>
-        <button class='button2'>Tarot Card </button>
-        <button class='button2'>What's the Chance? </button>
+    <button class='button'> Feshun </button>
+    <button class ='button'> Pwesentwation </button>
+    <a asp-action="Index" asp-controller="ArtIdeas" class='button'> Awt </a>
+    <button class='button'> Kwode </button>
+    <button class='button'> Skwool </button>
+
+        <hr style=" width:0%;text-align:center;margin-left:0">
+
+        <h2>Odew tings two dwo</h2>
+     
+    <button class='button'>CoinFwip </button>
+    <button class='button'>Mwagic 8 Bawll </button>
+    <button class='button'>Tawo Cawd </button>
+    <a asp-controller="Chance" class='button2'>Wat's de Chwance? </a>
 
 </div>
 </body>

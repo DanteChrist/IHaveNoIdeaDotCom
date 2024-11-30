@@ -16,3 +16,39 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.button {
+    align-items: center;
+    width: 250px;
+    height: 100px;
+    max-width: 70%;
+    padding: 40px;
+    border: 0px;
+    border-radius: 15px;
+    background-color: rgb(255, 102, 204);
+    color: #33001a;
+    font: 20px Inter, sans-serif;
+    align-self: center;
+    display: inline-block;
+    text-align: center;
+}
+
+.button2 {
+    align-items: center;
+    width: 315px;
+    height: 345px;
+    max-width: 70%;
+    padding: 40px;
+    border: 0px;
+    border-radius: 15px;
+    background-color: rgb(255, 102, 204);
+    color: #33001a;
+    font: 20px Inter, sans-serif;
+    align-self: center;
+    text-align: center;
+}
+
+.title-format {
+    color: #800040;
+    font: 100px Inter, Monotype;
+}
