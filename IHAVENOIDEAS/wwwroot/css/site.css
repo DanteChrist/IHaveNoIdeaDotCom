@@ -35,8 +35,8 @@ body {
 
 .button2 {
     align-items: center;
-    width: 315px;
-    height: 345px;
+    width: 250px;
+    height: 100px;
     max-width: 70%;
     padding: 40px;
     border: 0px;
@@ -45,6 +45,7 @@ body {
     color: #33001a;
     font: 20px Inter, sans-serif;
     align-self: center;
+    display: inline-block;
     text-align: center;
 }
 

@@ -15,5 +15,7 @@ namespace IHAVENOIDEAS.Data
         public DbSet<IHAVENOIDEAS.Data.PresentationIdea>? PresentationIdea { get; set; }
         public DbSet<IHAVENOIDEAS.Data.CodeIdea>? CodeIdea { get; set; }
         public DbSet<IHAVENOIDEAS.Data.SchoolIdea>? SchoolIdea { get; set; }
+        public DbSet<IHAVENOIDEAS.Data.MagicBall>? MagicBall { get; set; }
+        public DbSet<IHAVENOIDEAS.Data.TarotCardReading>? TarotCardReading { get; set; }
     }
 }

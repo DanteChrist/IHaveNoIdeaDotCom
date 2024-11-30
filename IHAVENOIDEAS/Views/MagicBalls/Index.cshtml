@@ -1,4 +1,4 @@
-﻿@model IEnumerable<IHAVENOIDEAS.Data.SchoolIdea>
+﻿@model IEnumerable<IHAVENOIDEAS.Data.MagicBall>
 
 @{
     ViewData["Title"] = "Index";
@@ -10,19 +10,16 @@
 
 <body style="background-color:#ffe6f2;">
 
-    <h1>Youw Skwool Pwoject Idia...</h1>
+    <h1>Youw Ansew</h1>
 
     @if (randomItem != null)
     {
         <table class="table">
             <thead>
-               
+              
             </thead>
             <tbody>
                 <tr>
-                    <td>
-                        @Html.DisplayFor(modelItem => randomItem.Name)
-                    </td>
                     <td>
                         @Html.DisplayFor(modelItem => randomItem.Description)
                     </td>
@@ -42,7 +39,7 @@
 
 
 
-@* @model IEnumerable<IHAVENOIDEAS.Data.SchoolIdea>
+@* @model IEnumerable<IHAVENOIDEAS.Data.MagicBall>
 
 @{
     ViewData["Title"] = "Index";

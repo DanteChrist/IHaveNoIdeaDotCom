@@ -1,4 +1,4 @@
-﻿@model IEnumerable<IHAVENOIDEAS.Data.SchoolIdea>
+﻿@model IEnumerable<IHAVENOIDEAS.Data.TarotCardReading>
 
 @{
     ViewData["Title"] = "Index";
@@ -10,21 +10,20 @@
 
 <body style="background-color:#ffe6f2;">
 
-    <h1>Youw Skwool Pwoject Idia...</h1>
+    <h1>Youw Tawot Cawd iwsss...</h1>
 
     @if (randomItem != null)
     {
         <table class="table">
             <thead>
-               
             </thead>
             <tbody>
                 <tr>
                     <td>
-                        @Html.DisplayFor(modelItem => randomItem.Name)
+                        @Html.DisplayFor(modelItem => randomItem.CardName)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => randomItem.Description)
+                        @Html.DisplayFor(modelItem => randomItem.Meaning)
                     </td>
                 </tr>
             </tbody>
@@ -42,7 +41,7 @@
 
 
 
-@* @model IEnumerable<IHAVENOIDEAS.Data.SchoolIdea>
+@* @model IEnumerable<IHAVENOIDEAS.Data.TarotCardReading>
 
 @{
     ViewData["Title"] = "Index";
