@@ -5,6 +5,7 @@ namespace IHAVENOIDEAS.Controllers
 {
     public class ArtController : Controller
     {
+
         // GET: ArtController
         public ActionResult Index()
         {
